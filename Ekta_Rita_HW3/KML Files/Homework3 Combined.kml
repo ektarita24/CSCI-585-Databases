@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <name>Combined</name>
+    <Style id="z1">
+      <IconStyle>
+        <Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>HOME</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.2832284,34.0297668</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KCH</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.27974119999999,34.0284565</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BLAZE</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.27936899,34.023229</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OIS</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.2819356,34.021713399999996</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>POPOVICH HALL</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.2829271,34.019009</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ROYAL STREET</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.2830551,34.0229158</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>THH</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.284254,34.0225468</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SGM 123</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.2891262,34.0208119</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TOMMY TROJAN</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.2849442,34.0206973</coordinates>
+      </Point>
+    </Placemark>
+
+    <Style id="polygon">
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <styleUrl>#polygon</styleUrl>
+      <Polygon>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -118.2829271,34.019009,15
+              -118.2891262,34.0208119,15
+              -118.2832284,34.0297668,15
+              -118.2797412,34.0284565,15
+              -118.27936899,34.023229,15
+              -118.2829271,34.019009,15
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <Style id="line">
+      <LineStyle>
+        <color>#ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+     <Placemark>
+       <styleUrl>#line</styleUrl>
+       <LineString>
+         <coordinates>
+           -118.2832284,34.0297668,0.
+           -118.27974119999999,34.0284565,0.
+         </coordinates>
+       </LineString>
+     </Placemark>
+     <Placemark>
+       <styleUrl>#line</styleUrl>
+       <LineString>
+         <coordinates>
+           -118.2832284,34.0297668,0.
+           -118.2830551,34.0229158,0.
+         </coordinates>
+       </LineString>
+     </Placemark>
+     <Placemark>
+       <styleUrl>#line</styleUrl>
+       <LineString>
+         <coordinates>
+           -118.2832284,34.0297668,0.
+           -118.284254,34.0225468,0.
+         </coordinates>
+       </LineString>
+     </Placemark>
+
+  </Document>
+</kml>

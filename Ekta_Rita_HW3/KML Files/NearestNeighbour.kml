@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <name>Nearest Neighbours</name>
+    <Style id="line">
+      <LineStyle>
+        <color>#ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+     <Placemark>
+       <styleUrl>#line</styleUrl>
+       <LineString>
+         <coordinates>
+           -118.2832284,34.0297668,0.
+           -118.27974119999999,34.0284565,0.
+         </coordinates>
+       </LineString>
+     </Placemark>
+     <Placemark>
+       <styleUrl>#line</styleUrl>
+       <LineString>
+         <coordinates>
+           -118.2832284,34.0297668,0.
+           -118.2830551,34.0229158,0.
+         </coordinates>
+       </LineString>
+     </Placemark>
+     <Placemark>
+       <styleUrl>#line</styleUrl>
+       <LineString>
+         <coordinates>
+           -118.2832284,34.0297668,0.
+           -118.284254,34.0225468,0.
+         </coordinates>
+       </LineString>
+     </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <name>Convex Hull</name>
+    <Style id="polygon">
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <styleUrl>#polygon</styleUrl>
+      <Polygon>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -118.2829271,34.019009,15
+              -118.2891262,34.0208119,15
+              -118.2832284,34.0297668,15
+              -118.2797412,34.0284565,15
+              -118.27936899,34.023229,15
+              -118.2829271,34.019009,15
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
